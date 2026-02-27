@@ -4,5 +4,95 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Space Grotesk", "Sans-Serif";
 }
 
+:root {
+    --azulclaro: #3778FA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    
+}
+
+.header-title h1 {
+    color: var(--azulclaro);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.hamburguer-menu {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    transform: scaleX(1.5);
+    transform-origin: right;
+}
+
+.top-main-texts {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-size: 1rem;
+    flex-direction: column;
+}
+
+.top-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+}
+
+.top-text-content {
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.top-subtitle-content {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.photo-contents  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.top-photos-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top-photos-content img {
+    max-width: 90%;
+    height: auto;
+}
+
+.middle-top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.875rem;
+}
+
+.middle-top-text {
+    justify-content: space-between;
+}
+
+
+.middle-top-content img {
+    display: flex;
+    max-width: 90%;
+    height: auto;
+}
