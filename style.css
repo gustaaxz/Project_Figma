@@ -109,3 +109,50 @@ header {
     max-width: 90%;
     height: auto;
 }
+
+.middle-bottom-content {
+    background-color: #ccc;
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.footer-top-content {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-middle-top-content {
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    padding-right: 5.688rem;
+}
+
+.footer-middle-bottom-content {
+    background-color: var(--azulclaro);
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer-copyright {
+    padding-top: 4.75rem;
+}
+
+.footer-end-content {
+    background-color: var(--azulclaro);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+.footer-end {
+    padding-bottom: 2rem;
+}
