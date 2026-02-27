@@ -81,18 +81,31 @@ header {
 .middle-top-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     margin-top: 6.875rem;
+    width: 100%;
 }
 
 .middle-top-text {
-    justify-content: space-between;
+    font-size: 1.8rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
 }
 
+.middle-top-video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 
-.middle-top-content img {
+.middle-top-video {
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.middle-top-video img {
     max-width: 90%;
     height: auto;
 }
