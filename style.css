@@ -9,6 +9,8 @@
 
 :root {
     --azulclaro: #3778FA;
+    --cinza: #5e5e5e;
+    --cinza-claro: #f3f3f3;
 }
 
 header {
@@ -111,12 +113,70 @@ header {
 }
 
 .middle-bottom-content {
-    background-color: #ccc;
     margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
 }
+
+.middle-bottom-text {
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    margin: 2rem;
+    font-size: 2rem;
+    max-width: 77%;
+}
+
+.middle-bottom-box {
+    background-color: var(--cinza-claro);
+    margin: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.middle-bottom-photo {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 2rem;
+    aspect-ratio: 15.5 / 12;
+}
+
+.question-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.question-text-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    margin: 0.75rem 1.25rem 0.75rem 1.25rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.question-response p {
+    margin-top: 1rem;
+}
+
+.question-response {
+    color: var(--cinza);
+    font-size: 0.9rem;
+}
+
+.icon-plus {
+    display: flex;
+    color: var(--cinza);
+}
+
 
 .footer-top-content {
     background-color: pink;
